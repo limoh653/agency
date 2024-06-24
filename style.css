@@ -1,0 +1,96 @@
+
+header {
+    background-color: #333;
+    color: darkslateblue;
+    padding: 10px 20px;
+    text-align: right;
+}
+nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.home{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-image: url("./images/home.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1{
+    color: chartreuse;
+    text-align: center;
+}
+.home p {
+    color: chartreuse;
+}
+h2{
+    color: chartreuse;
+    text-align: center;
+}
+.services{
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly with space around them */
+    align-items: center; 
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(9, 9, 66);
+}
+.services figure{
+    max-width: 100%; /* Ensure images do not exceed their original size */
+     height: auto; /* Maintain aspect ratio */
+        }
+ .services figcaption{
+    color: #fff;
+ }
+.testimonials{
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly with space around them */
+    align-items: center; 
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.testimonials div img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+}
+.testimonials div p{
+    max-width: 120px;
+}
+
+
+.contacts {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* Styling for footer links */
+.contacts a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+contacts a:hover {
+    text-decoration: underline;
+}
